@@ -20,7 +20,7 @@
 
 #header{
     max-width: 1320px;
-    background-image: url("../asset/images/Banner\ Image.png ");
+    background-image: linear-gradient(to bottom, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0.1)) ,url("../asset/images/Banner\ Image.png ");
     height: 600px;
     margin: 50px auto 120px auto;
     text-align: center;
@@ -75,7 +75,7 @@
 .banner{
     max-width: 1320px;
     height: 600px;
-    background-image: url("../asset/images/Vectorrr.png");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)) ,url("../asset/images/Vectorrr.png");
     margin: 0px auto 120px auto;
     
 }
@@ -115,11 +115,12 @@
 .banner-2{
     max-width: 1320px;
     height: 482px;
-    background-color: rgb(232, 216, 208);
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0));
     border-radius: 16px;
     margin: 0px auto 120px auto;
     text-align: center;
     font-weight: 600px;
+    
 }
 
 .banner-2 h1{
@@ -386,5 +387,18 @@ hr{
     border-top: 1px;
     opacity: 15%;
 }
+
+.side-2{
+    vertical-align:top;
+    display:inline-block;
+    padding: 5px;
+}
+
+.side-2 img{
+    vertical-align: middle;
+    margin: 8px;
+    
+}
+
 
 
